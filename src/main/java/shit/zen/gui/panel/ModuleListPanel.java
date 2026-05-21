@@ -249,7 +249,7 @@ extends ClientBase {
                     String bindName = module.getBind().getName();
                     if (!bindName.equalsIgnoreCase("None")) {
                         FontRenderer iconFont = FontPresets.materialIcons(16.0f * scale);
-                        String iconText = "";
+                        String iconText = "";
                         FontRenderer bindFont = FontPresets.axiformaRegular(16.0f * scale);
                         float bindWidth = GlHelper.getStringWidth(bindName, bindFont);
                         float iconWidth = GlHelper.getStringWidth(iconText, iconFont);
@@ -278,7 +278,7 @@ extends ClientBase {
                         int glowByte = (int)(alpha * 0.39215687f * hoverAmount);
                         int glowColor = this.applyAlpha(-3355444, (float)glowByte / 255.0f);
                         FontRenderer iconFont = FontPresets.materialIcons(16.0f * scale);
-                        String iconText = "";
+                        String iconText = "";
                         FontRenderer bindFont = FontPresets.axiformaRegular(16.0f * scale);
                         float bindWidth = GlHelper.getStringWidth(bindName, bindFont);
                         float iconWidth = GlHelper.getStringWidth(iconText, iconFont);

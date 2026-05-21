@@ -77,7 +77,7 @@ extends ClientBase {
     private void drawPopupBody(DrawContext drawContext, GuiGraphics guiGraphics, int popupX, int popupY, int mouseX, int mouseY, int popupHeight, int alphaByte, float scale, int popupWidth) {
         int whiteColor = alphaByte << 24 | 0xFFFFFF;
         FontRenderer iconFont = FontPresets.materialIcons(18.0f * scale);
-        GlHelper.drawText("", (float)popupX + 15.0f * scale, (float)popupY + 16.0f * scale, iconFont, whiteColor);
+        GlHelper.drawText("", (float)popupX + 15.0f * scale, (float)popupY + 16.0f * scale, iconFont, whiteColor);
         FontRenderer titleFont = FontPresets.museoSans(22.0f * scale);
         String title = "ZENLESS.ZONE";
         float titleWidth = GlHelper.getStringWidth(title, titleFont);
@@ -124,7 +124,7 @@ extends ClientBase {
         int textColor = alphaByte << 24 | r << 16 | g << 8 | b;
         int glowAlpha = (int)(180.0f * this.closeButtonHoverAlpha * this.openAlpha);
         int glowColor = new Color(r, g, b, glowAlpha).getRGB();
-        TextGlow.drawGlowText("", btnX, btnY, iconFont, textColor, glowColor, 10.0f * scale);
+        TextGlow.drawGlowText("", btnX, btnY, iconFont, textColor, glowColor, 10.0f * scale);
     }
 
     private int drawDropdown(DrawContext drawContext, GuiGraphics guiGraphics, String label, String selectedValue, String[] items, String key, int popupX, int rowY, int mouseX, int mouseY, float openAlpha, float scale, int popupWidth) {
@@ -145,7 +145,7 @@ extends ClientBase {
         float valueY = (float)rowY + (float)dropdownHeaderHeight / 2.0f - valueFont.getMetrics().capHeight() / 2.0f + 3.0f * scale;
         GlHelper.drawText(selectedValue, valueX, valueY - 2.0f, valueFont, valueColor);
         FontRenderer arrowFont = FontPresets.materialIcons(18.0f * scale);
-        String arrowIcon = "";
+        String arrowIcon = "";
         float arrowX = (float)(dropdownX + dropdownWidth) - 18.0f * scale;
         float arrowY = (float)rowY + (float)dropdownHeaderHeight / 2.0f + arrowFont.getMetrics().capHeight() / 2.0f - 10.5f * scale + 7.0f;
         GlHelper.drawText(arrowIcon, arrowX, arrowY, arrowFont, valueColor);

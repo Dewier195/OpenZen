@@ -90,7 +90,8 @@ public class CategoryPanel {
             case PLAYER -> 'c';
             case RENDER -> 'd';
             case EXPLOIT -> 'e';
-            default -> '?';
+            case WORLD -> 'f';
+            case MISC -> 'g';
         });
         float iconY = (float)this.y + ((float)this.rowHeight / 2.0f - FontStore.ICON_30.getFontHeight() / 2.0f) + 3.0f;
         FontStore.ICON_30.drawStringWithShadow(guiGraphics.pose(), iconChar, this.x + 4, iconY, -1);

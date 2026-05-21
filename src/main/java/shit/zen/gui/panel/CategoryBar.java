@@ -151,12 +151,12 @@ extends ClientBase {
     }
 
     static {
-        CATEGORY_ICONS.put(Category.COMBAT, "");
-        CATEGORY_ICONS.put(Category.MOVEMENT, "");
-        CATEGORY_ICONS.put(Category.PLAYER, "");
-        CATEGORY_ICONS.put(Category.RENDER, "");
-        CATEGORY_ICONS.put(Category.EXPLOIT, "");
-        CATEGORY_ICONS.put(Category.WORLD, "");
-        CATEGORY_ICONS.put(Category.MISC, "");
+        CATEGORY_ICONS.put(Category.COMBAT, "");
+        CATEGORY_ICONS.put(Category.MOVEMENT, "");
+        CATEGORY_ICONS.put(Category.PLAYER, "");
+        CATEGORY_ICONS.put(Category.RENDER, "");
+        CATEGORY_ICONS.put(Category.EXPLOIT, "");
+        CATEGORY_ICONS.put(Category.WORLD, "");
+        CATEGORY_ICONS.put(Category.MISC, "");
     }
 }
