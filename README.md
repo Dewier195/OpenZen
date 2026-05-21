@@ -14,6 +14,12 @@
 ## 截图
 ![Open Zen ClickGUI](img/screenshot.png)
 
+## TODO
+ - 客户端的Shader渲染明显还有很多问题。
+ - Web Click GUI尚未实现。
+ - 部分UI错位。
+ - 你来提出Issue，我来解决。
+
 ## 原始 Jar + Mapping
 [原始Jar](./mapping/zen-orignial.jar)
 [Mapping](./mapping/zen.mapping)
