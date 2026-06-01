@@ -713,3 +713,7 @@ tasks.register('cleanNative', Delete) {
 tasks.named('clean').configure {
     dependsOn 'cleanNative'
 }
+
+// Release builds are cut by .github/workflows/build-loader.yml when the head commit
+// message contains [Release]. Every build emits fresh random class names — see
+// ext.obfuscateJar above and the "编译时类名混淆" section in the README.
